@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tienda Verde</title>
+        <link rel="StyleSheet" href="css/style.css" type="text/css" />
+    </head>
+    <body>
+        <!-- offline because what if something happens to the host site -->
+        <script src="resources/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+        <script src="resources/index.js"></script>
+
+        <header>
+            <nav class="navbar row">
+                <input type="button" class="navigator col" onclick="navigator(this)" value="ONE"></input>
+                <input type="button" class="navigator col" onclick="navigator(this)" value="TWO"></input>
+                <input type="button" class="navigator col" onclick="navigator(this)" value="THREE"></input>
+                <input type="button" class="navigator col" onclick="navigator(this)" value="FOUR"></input>
+                <input type="button" class="navigator col" onclick="navigator(this)" value="FIVE"></input>
+            </nav>
+        </header>
+
+        <div class="row segment" id="segment1"></div>
+        <div class="row segment" id="segment2"></div>
+        <div class="row segment" id="segment3"></div>
+        <div class="row segment" id="segment4"></div>
+        <div class="row segment" id="segment5"></div>
+
+        <footer>
+            <div class="row">
+                <div class="footer-content col">ONE</div>
+                <div class="footer-content col">TWO</div>
+                <div class="footer-content col">THREE</div>
+            </div>
+        </footer>
+    </body>
+</html>
