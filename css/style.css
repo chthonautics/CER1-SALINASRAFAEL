@@ -40,11 +40,19 @@ footer {
     le text
 */
 h1 {
-    color: white;
+    color: #303030;
+    font-family: "Coolvetica";
+    width: 100%;
+}
+
+p {
+    color: #303030;
+    font-family: "Coolvetica";
+    width: 100%;
 }
 
 * {
-    color: white;
+    color: #303030;
     font-family: rob;
 }
 
@@ -83,6 +91,8 @@ h1 {
     color: #303030;
     background-color: #b6e3ba;
     height: 100%;
+
+    font-family: "Coolvetica";
 
     border: none;
     margin: none;
