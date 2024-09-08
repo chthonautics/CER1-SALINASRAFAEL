@@ -8,13 +8,14 @@
     </head>
     <body>
         <!-- offline because what if something happens to the host site -->
-        <script src="resources/popper.js"></script>
+        <script src="scripts/popper.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
 
-        <script src="resources/index.js"></script>
+        <script src="scripts/index.js"></script>
 
         <header>
-            <nav class="navbar row">
+            <nav class="navbar row container-fluid">
+                <span class="col"><img src="resources/tvlogo.png" class="img-fluid" id="nav-img" alt=""></span>
                 <a href="index.html" class="col"><input type="button" class="navigator" value="INICIO"></input></a>
                 <a href="store.html" class="col"><input type="button" class="navigator" value="TIENDA"></input></a>
                 <a href="form.html" class="col"><input type="button" class="navigator" value="RECICLAJE"></input></a>
@@ -23,28 +24,46 @@
 
         <div class="separator"></div>
 
+        <!-- main segment -->
         <div class="row segment container-fluid" id="segment1">
-            <div class="col"><img class="content-img mx-auto d-block img-fluid object-fit-contain" src="resources/tvlogo.png" alt=""></div>
+            <div class="col"><img class="content-img mx-auto d-block img-fluid object-fit-contain" src="resources/tvlogo.png" alt="Logo Tienda Verde"></div>
         </div>
+
+        <!-- company info -->
         <div class="row segment container-fluid" id="segment2">
-            <div class="col-sm-6 content">
-                <div class="row"><h1 class="text-end">agga</h1></div>
-                <div class="row"><p class="text-end">ongh</p></div>
+            <div class="col-sm-6">
+                <div class="row"><h1 class="text-end title">Información</h1></div>
+                <div class="row"><p class="text-end description">En Tienda Verde, ofrecemos productos y servicios ecológicamente sostenibles. Nosotros nos orientamos en reducir los desechos producidos por nuestras tareas diarias vendiendo productos reutilizables y biodegradables, además de ofrecer servicios de reciclaje a domicilio para gestionar residuos de manera más eficiente.</p></div>
             </div>
-            <div class="col-sm-6"><img class="content-img float-right" src="resources/Trollface.png" alt=""></div>
+            <div class="col-sm-6"><img class="content-img img-fluid rounded m-2" src="resources/gardener.jpg" alt=""></div>
         </div>
+
+        <!-- product info -->
         <div class="row segment container-fluid" id="segment3">
-            <div class="col-sm-6 content"></div>
-            <div class="col-sm-6"><img class="content-img float-right" src="resources/Trollface.png" alt=""></div>
+            <div class="col-sm-6"><img class="content-img float-end img-fluid rounded m-2" src="resources/products.jpg" alt=""></div>
+            <div class="col-sm-6">
+                <div class="row"><h1 class="title">Productos</h1></div>
+                <div class="row"><p class="description">En Tienda Verde, nuestros productos están hechos de material 100% biodegradable, además de ser fácil de reutilizar. Visita nuestra tienda para más Información.</p></div>
+                <a href="store.html" class="col"><input type="button" class="btn btn-success" value="Tienda >"></input></a>
+            </div>
         </div>
+
+        <!-- recycle info -->
         <div class="row segment container-fluid" id="segment4">
-            <div class="col-sm-6 content"></div>
-            <div class="col-sm-6"><img class="content-img float-right" src="resources/Trollface.png" alt=""></div>
+            <div class="col-sm-6">
+                <div class="row"><h1 class="text-end title">Servicios de reciclaje</h1></div>
+                <div class="row"><p class="text-end description">Nosotros ofrecemos servicios de reciclaje a domicilio, simplemente rellena nuestro formulario con la información necesaria y enviaremos un camión de reciclaje cada semana.</p></div>
+                <a href="form.html" class="col"><input type="button" class="btn btn-success float-end" value="Reciclaje >"></input></a>
+            </div>
+            <div class="col-sm-6"><img class="content-img img-fluid rounded m-2" src="resources/recycle.jpg" alt=""></div>
         </div>
+
+        <!-- add gallery here -->
         <div class="row segment container-fluid" id="segment5">
 
         </div>
 
+        <!-- 
         <footer>
             <div class="row">
                 <div class="footer-content col">ONE</div>
@@ -52,5 +71,7 @@
                 <div class="footer-content col">THREE</div>
             </div>
         </footer>
+        -->
+        
     </body>
 </html>

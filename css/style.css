@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #303030;
+    background-color: #a1cca5;
 }
 
 /*
@@ -41,19 +41,17 @@ footer {
 */
 h1 {
     color: #303030;
-    font-family: "Coolvetica";
     width: 100%;
 }
 
 p {
     color: #303030;
-    font-family: "Coolvetica";
     width: 100%;
 }
 
 * {
     color: #303030;
-    font-family: rob;
+    font-family: "Coolvetica";
 }
 
 .segment {
@@ -78,6 +76,10 @@ p {
 }
 #segment5 {
     background-color: #507656;
+}
+
+#nav-img {
+    max-height: 20px;
 }
 
 .navbar {
@@ -108,6 +110,21 @@ p {
 }
 
 .content-img {
+    max-height: 350px;
+}
+
+.card-content {
+    background-color: #709775;
+}
+
+.card-image {
+    height: 12rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: larger;
 }
 
 .footer-content {
