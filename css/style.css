@@ -4,12 +4,6 @@
     src: url("../resources/coolvetica\ rg.otf");
 }
 
-/*
-    force vertical scroll size
-*/
-html {
-}
-
 body {
     background-color: #a1cca5;
 }
@@ -106,8 +100,10 @@ p {
     height: 50px;
 }
 
+/*
 .content {
 }
+*/
 
 .content-img {
     max-height: 350px;
